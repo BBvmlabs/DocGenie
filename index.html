@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocGenie | AI Documentation Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animated-bg.css">
+    <link rel="icon" type="image/png" href="assets/images/docgenie.png">
+</head>
+<body>
+
+    <div class="animated-bg"></div>
+
+    <nav class="navbar reveal">
+        <img class="logo" src="assets/images/docgenie-wide-logo-web.png" alt="DocGenie Logo" >
+        <div class="nav-links-container">
+        <div class="nav-links">
+            <a href="">Docs</a>
+            <a href="#Downloads">Downloads</a>
+            <a href="#features">Features</a>
+            <a href="https://github.com/bbvmlabs/DocGenie" class="github-link">GitHub</a>
+        </div><a href="https://app.docgenie.bbvmlabs.top" class="btn-primary">Go to Dashboard</a></div>
+    </nav>
+
+    <header class="hero reveal">
+        <div class="hero-content">
+            <div class="badge">v1.0 is live 🚀</div>
+            <h1>Generate Architecture Docs <span class="highlight">at Scale.</span></h1>
+            <p>Ingest massive repositories locally. Stream to Google AI Studio. Generate Mermaid diagrams and API contracts with zero token markup and complete privacy.</p>
+        </div>
+
+            <section id="Downloads" class="downloads reveal">
+        <h2>Available On</h2>
+        <div class="download-row">
+            <a href="https://github.com/bbvmlabs/docgenie-cli/releases/latest" class="btn-secondary"> <img src="assets/svg/terminal.svg" alt="CLI"> Download CLI</a>
+            <a href="https://github.com/bbvmlabs/docgenie-vscode/releases/latest" class="btn-secondary"> <img src="assets/svg/vscode.svg" alt="VS Code"> VS Code Extension</a>
+            <a href="https://github.com/bbvmlabs/docgenie-web/releases/latest" class="btn-secondary"> <img src="assets/svg/web-app.svg" alt="Web"> Web App</a>
+            <a href="https://github.com/bbvmlabs/docgenie/releases/latest" class="btn-secondary"> <img src="assets/svg/android.svg" alt="Mobile"> Mobile App</a>
+        </div>
+    </section>
+
+        <div class="terminal-window reveal">
+            <div class="terminal-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+            </div>
+            <div class="terminal-body">
+                <p class="prompt"><span class="path">~/projects/massive-repo</span> $ <span id="typewriter"></span><span class="cursor">|</span></p>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features reveal">
+        <div class="feature-card reveal">
+            <h3>🔑 Bring Your Own Key</h3>
+            <p>No monthly token subscriptions. Connect your Google AI Studio key locally and pay exactly $0 in markup.</p>
+        </div>
+        <div class="feature-card reveal">
+            <h3>🌊 Streaming Proxy</h3>
+            <p>Process gigabytes of code without RAM crashes. DocGenie streams your codebase dynamically to the LLM.</p>
+        </div>
+        <div class="feature-card reveal">
+            <h3>💻 Multi-Platform</h3>
+            <p>Access your architecture via the local CLI, VS Code extension, or the cross-platform dashboard.</p>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
