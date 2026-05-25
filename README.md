@@ -36,6 +36,6 @@ DocGenie solves the scale and security problems of AI code documentation. By uti
 ### Explore the Open-Source Ingestion Tools:
 To trust DocGenie, you need to see how it reads your code. Check out our open-source ingestion tools:
 * 🖥️ **[DocGenie CLI](https://github.com/bbvmlabs/docgenie-cli):** The local terminal tool that respects your `.gitignore`.
-* 🧩 **[DocGenie VS Code](https://github.com/bbvmlabs/docgenie-vscode):** The context-aware IDE extension.
+* 🧩 **[DocGenie VS Code](https://github.com/bbvmlabs/docgenie-vsc-ext):** The context-aware IDE extension.
 
 ---
