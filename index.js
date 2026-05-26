@@ -1,4 +1,4 @@
-const textToType = "docgenie generate --map-architecture";
+const textToType = "LayrDoc generate --map-architecture";
 const typeTarget = document.getElementById("typewriter");
 
 let i = 0;
@@ -20,7 +20,7 @@ function typeWriter() {
         // Swap states
         isDeleting = !isDeleting;
         // Pause at the end before deleting, and pause before typing again
-        setTimeout(typeWriter, isDeleting ? 2000 : 500); 
+        setTimeout(typeWriter, isDeleting ? 2000 : 500);
     }
 }
 
