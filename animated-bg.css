@@ -1,14 +1,27 @@
-/* Animated background using background.png */
+/* Animated background using background.png with vignette overlay */
 .animated-bg {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: -1;
+    z-index: -2;
     background: url('assets/images/background.png') center center/cover no-repeat;
-    animation: bgMove 20s linear infinite alternate;
-    opacity: 0.5;
+    animation: bgMove 30s ease-in-out infinite alternate;
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+/* Vignette mask to fade the background edges into the theme */
+.animated-bg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, transparent 15%, var(--bg) 85%);
+    pointer-events: none;
 }
 
 @keyframes bgMove {
@@ -18,7 +31,7 @@
     }
     50% {
         background-position: 100% 50%;
-        transform: scale(1.05);
+        transform: scale(1.06);
     }
     100% {
         background-position: 0% 50%;
