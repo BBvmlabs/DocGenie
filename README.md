@@ -1,4 +1,4 @@
-# 🧞‍♂️ LayrDoc: Official Website & Landing Page
+# 🗃️  LayrDoc: Official Website & Landing Page
 
 > **The blazing-fast, secure AI documentation generator for massive codebases.**
 
